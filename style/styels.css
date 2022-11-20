@@ -7,6 +7,7 @@
 
 h2 {
   font-family: var(--heading-font-family);
+  padding-top: 40px;
 }
 
 p {
@@ -78,6 +79,7 @@ p {
 
 .project-description {
   padding: 120 60px;
+  padding-top: 40px;
 }
 
 @media (max-width: 960px) {
