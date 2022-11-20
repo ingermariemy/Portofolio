@@ -1,1 +1,18 @@
+h1 {
+  position: absolute;
+  width: 136px;
+  height: 54px;
+  left: calc(50% - 136px / 2 - 34px);
+  top: 268px;
 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #264143;
+}
