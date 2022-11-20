@@ -5,6 +5,19 @@
   --default-font-family: "poppins", sans-serif;
 }
 
+h2 {
+  font-family: var(--heading-font-family);
+}
+
+p {
+  font-weight: normal;
+  opacity: 70;
+  line-height: 30px;
+}
+
+.featured {
+  text-align: center;
+}
 .hero {
   background-color: var(--main-primary-color);
   text-align: center;
@@ -44,4 +57,31 @@
   padding: 20px;
   width: 150px;
   color: #ffffff;
+}
+
+.navbar-custom {
+  background-color: var(--main-primary-color);
+}
+
+.navbar-text {
+  color: #de5499;
+}
+
+.btn-branding-outline {
+  border: solid 1px;
+  padding: 10px;
+  width: 150px;
+  border-color: #de5499;
+  color: #de5499;
+  margin-left: 45px;
+}
+
+.project-description {
+  padding: 120 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+  }
 }
