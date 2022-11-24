@@ -55,8 +55,8 @@ p {
 
 .btn-branding {
   background: #de5499;
-  padding: 20px;
-  width: 150px;
+  padding: 10px;
+  width: 200px;
   color: #ffffff;
 }
 
@@ -71,7 +71,7 @@ p {
 .btn-branding-outline {
   border: solid 1px;
   padding: 10px;
-  width: 150px;
+  width: 200px;
   border-color: #de5499;
   color: #de5499;
 }
@@ -85,4 +85,20 @@ p {
   .project-description {
     padding: 0;
   }
+}
+
+.about-section h1 {
+  font-size: 60px;
+  font-family: var(--heading-font-family);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
+.about-section {
+  padding: 160px 0;
+  padding-left: 100px;
 }
