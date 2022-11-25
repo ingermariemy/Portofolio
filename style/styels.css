@@ -5,6 +5,10 @@
   --default-font-family: "poppins", sans-serif;
 }
 
+.container body {
+  color: #f2ebe9;
+}
+
 h2 {
   font-family: var(--heading-font-family);
   padding-top: 40px;
@@ -103,4 +107,22 @@ p {
 .about-section {
   padding: 160px 0;
   padding-left: 100px;
+}
+
+.work-section h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  color: var(--main-secondary-color);
+}
+
+.work-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+.work-section {
+  padding: 160px 0;
+  padding-left: 40px;
 }
