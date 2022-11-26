@@ -198,7 +198,6 @@ footer .social-links {
   text-align: center;
   padding-right: 5px;
   padding-left: 5px;
-  padding-bottom: 10px;
   color: var(--main-primary-color);
 }
 
@@ -244,4 +243,10 @@ footer .btn-branding {
   width: 150px;
   height: 50px;
   margin-top: 20px;
+}
+
+.contact-info h1 {
+  font-family: var(--heading-font-family);
+  text-align: center;
+  padding-bottom: 150px;
 }
