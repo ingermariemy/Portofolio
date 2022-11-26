@@ -16,10 +16,10 @@ h2 {
 
 h1 h4 {
   font-family: var(--heading-font-family);
+  color: var(--main-secondary-color);
 }
 
 p {
-  font-weight: normal;
   font-family: var(--default-font-family);
   opacity: 70;
   line-height: 30px;
@@ -36,7 +36,7 @@ p {
 }
 
 .hero p {
-  font-family: poppins;
+  font-family: var(--default-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -49,9 +49,7 @@ p {
   font-family: playfair display;
   font-weight: bold;
   font-size: 96px;
-
   text-align: center;
-
   color: var(--main-secondary-color);
 }
 
@@ -119,16 +117,15 @@ p {
 }
 
 .work-section h1 {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: 60px;
-  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 40px;
   font-family: var(--heading-font-family);
   color: var(--main-secondary-color);
 }
 
 .work-section h2 {
   font-family: var(--default-font-family);
+  font-weight: bold;
   font-size: 24px;
 }
 .work-section {
@@ -208,7 +205,7 @@ footer .social-links:hover {
 footer .email-link {
   color: var(--main-secondary-color);
   font-family: var(--default-font-family);
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -225,6 +222,7 @@ footer .contact-box h4 {
   font-size: 30px;
   font-weight: bold;
   padding-left: 50px;
+  color: var(--main-secondary-color);
 }
 
 footer .contact-box p {
