@@ -41,7 +41,6 @@ p {
   font-size: 36px;
   line-height: 54px;
   text-align: center;
-
   color: var(--main-secondary-color);
 }
 
@@ -68,20 +67,17 @@ p {
   color: #ffffff;
 }
 
-.navbar-custom {
-  background-color: var(--main-primary-color);
-}
-
-.navbar-text {
-  color: #de5499;
-}
-
 .btn-branding-outline {
   border: solid 1px;
   padding: 10px;
   width: 200px;
   border-color: #de5499;
   color: #de5499;
+}
+
+.btn-branding:hover {
+  background-color: #de5499;
+  color: #ffffff;
 }
 
 .project-description {
@@ -127,7 +123,7 @@ p {
   font-size: 24px;
 }
 .work-section {
-  padding: 160px 0;
+  padding: 80px 0;
   padding-left: 40px;
 }
 
@@ -147,4 +143,43 @@ p {
   font-family: var(--default-font-family);
   font-weight: bold;
   font-size: 20px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+  font-family: (--default-font-family);
+  margin-left: 15px;
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #de5499;
+  opacity: 70%;
+  font-size: 16px;
+  transition: all 100ms ease-in-out;
+}
+nav {
+  background-color: var(--main-primary-color);
+  padding: 20px 0;
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #de5499;
+}
+
+li.active {
+  color: #de5499;
+  opacity: 150%;
+  font-weight: bold;
+  font-style: var(--default-font-family);
+}
+
+.navigation-container {
+  background-color: var(--main-primary-color);
 }
