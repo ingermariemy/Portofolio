@@ -14,12 +14,13 @@ h2 {
   padding-top: 40px;
 }
 
-h1 {
+h1 h4 {
   font-family: var(--heading-font-family);
 }
 
 p {
   font-weight: normal;
+  font-family: var(--default-font-family);
   opacity: 70;
   line-height: 30px;
 }
@@ -68,6 +69,14 @@ p {
 }
 
 .btn-branding-outline {
+  border: solid 1px;
+  padding: 10px;
+  width: 200px;
+  border-color: #de5499;
+  color: #de5499;
+}
+
+.btn-branding-outline:hover {
   border: solid 1px;
   padding: 10px;
   width: 200px;
@@ -182,4 +191,30 @@ li.active {
 
 .navigation-container {
   background-color: var(--main-primary-color);
+}
+
+footer .social-links {
+  font-size: 30px;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: var(--main-primary-color);
+}
+
+footer .social-links:hover {
+  color: #de5499;
+}
+
+footer .email-link {
+  color: var(--main-secondary-color);
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+footer .email-link:hover {
+  color: (--main-secondary-color);
 }
