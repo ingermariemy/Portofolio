@@ -218,3 +218,28 @@ footer .email-link {
 footer .email-link:hover {
   color: (--main-secondary-color);
 }
+
+footer .contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+footer .contact-box p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+footer .contact-box {
+  background: var(--main-primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .btn-branding {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+}
