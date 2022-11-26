@@ -248,3 +248,13 @@ footer .btn-branding {
   text-align: center;
   padding-bottom: 150px;
 }
+
+.github-link {
+  text-decoration: none;
+  color: #de5499;
+  padding-top: 20px;
+}
+.github-link:hover {
+  text-decoration: none;
+  color: #de5499;
+}
