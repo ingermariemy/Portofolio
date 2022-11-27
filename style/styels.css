@@ -48,7 +48,7 @@ p {
 .hero h1 {
   font-family: playfair display;
   font-weight: bold;
-  font-size: 96px;
+  font-size: 90px;
   text-align: center;
   color: var(--main-secondary-color);
 }
